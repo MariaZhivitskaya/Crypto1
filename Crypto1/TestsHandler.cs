@@ -34,7 +34,7 @@ namespace Crypto1
                 5, 20, 30
             };
 
-            FileHandler.WriteText("Starting test...", fileForAttackAnalysisTextLengthTestsResults, false);
+            FileHandler.WriteText("Starting test...", fileForAttackAnalysisKeyLengthTestsResults, false);
             foreach (var keyLength in keyLengths)
             {
                 successGuess = 0;
@@ -52,7 +52,7 @@ namespace Crypto1
                 500, 1000, 1500
             };
 
-            FileHandler.WriteText("Starting test...", fileForAttackAnalysisKeyLengthTestsResults, false);
+            FileHandler.WriteText("Starting test...", fileForAttackAnalysisTextLengthTestsResults, false);
             foreach (var textLength in textLengths)
             {
                 successGuess = 0;
