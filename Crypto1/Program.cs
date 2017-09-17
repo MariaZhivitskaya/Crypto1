@@ -37,8 +37,8 @@ namespace Crypto1
                 fileOutputVigenereDecode, true);
             FileHandler.WriteText("Guessed key word length: " + guessedKeyLength, fileOutputVigenereDecode, true);
 
-            TestsHandler.AttackAnalysisTextLength(numberOfTests, eps, textLength, lgramParameter);
-            TestsHandler.AttackAnalysisKeyLength(numberOfTests, eps, keyLength, lgramParameter);
+            TestsHandler.AttackAnalysisTextLength(numberOfTests, eps, keyLength, lgramParameter);
+            TestsHandler.AttackAnalysisKeyLength(numberOfTests, eps, textLength, lgramParameter);
 
             Console.WriteLine("Press any key to continue...");
             Console.ReadKey();

@@ -27,7 +27,7 @@ namespace Crypto1
             textForTestsGenerating = FileHandler.ReadText(fileForTestsGenerating);
         }
 
-        public static void AttackAnalysisTextLength(int numberOfTests, double eps, int textLength, int lgramParameter)
+        public static void AttackAnalysisKeyLength(int numberOfTests, double eps, int textLength, int lgramParameter)
         {
             int[] keyLengths =
             {
@@ -45,7 +45,7 @@ namespace Crypto1
             }
         }
 
-        public static void AttackAnalysisKeyLength(int numberOfTests, double eps, int keyLength, int lgramParameter)
+        public static void AttackAnalysisTextLength(int numberOfTests, double eps, int keyLength, int lgramParameter)
         {
             int[] textLengths =
             {
