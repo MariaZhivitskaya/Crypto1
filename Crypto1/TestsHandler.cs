@@ -41,7 +41,7 @@ namespace Crypto1
                 successGuessEps = 0;
                 successGuessWhole = 0;
 
-                RunTests(numberOfTests, textLength, keyLength, lgramParameter, eps, fileForAttackAnalysisTextLengthTestsResults);
+                RunTests(numberOfTests, textLength, keyLength, lgramParameter, eps, fileForAttackAnalysisKeyLengthTestsResults);
             }
         }
 
@@ -59,7 +59,7 @@ namespace Crypto1
                 successGuessEps = 0;
                 successGuessWhole = 0;
 
-                RunTests(numberOfTests, textLength, keyLength, lgramParameter, eps, fileForAttackAnalysisKeyLengthTestsResults);
+                RunTests(numberOfTests, textLength, keyLength, lgramParameter, eps, fileForAttackAnalysisTextLengthTestsResults);
             }
         }
 
